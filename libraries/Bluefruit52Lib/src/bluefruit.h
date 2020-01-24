@@ -225,6 +225,7 @@ class AdafruitBluefruit
 
     SemaphoreHandle_t _ble_event_sem;
     SemaphoreHandle_t _soc_event_sem;
+
 #ifdef ANT_LICENSE_KEY
     /* Optional semaphore for additional event handlers for SD event.
      * It can be used for handling non-BLE  SD events 
