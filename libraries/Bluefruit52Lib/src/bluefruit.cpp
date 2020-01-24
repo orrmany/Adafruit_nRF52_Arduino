@@ -310,7 +310,11 @@ bool AdafruitBluefruit::begin(uint8_t prph_count, uint8_t central_count)
   #error Clock Source is not configured, define USE_LFXO or USE_LFRC according to your board in variant.h
 #endif
 
+#ifdef ANT_LICENSE_KEY
+  VERIFY_STATUS( sd_softdevice_enable(&clock_cfg, nrf_error_cb, ANT_LICENSE_KEY), false );
+#else
   VERIFY_STATUS( sd_softdevice_enable(&clock_cfg, nrf_error_cb), false );
+#endif 
 
 #ifdef USE_TINYUSB
   usb_softdevice_post_enable();
