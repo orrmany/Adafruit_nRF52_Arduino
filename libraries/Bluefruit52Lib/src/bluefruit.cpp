@@ -320,7 +320,7 @@ bool AdafruitBluefruit::begin(uint8_t prph_count, uint8_t central_count)
 
 #ifdef ANT_LICENSE_KEY
   VERIFY_STATUS( sd_softdevice_enable(&clock_cfg, nrf_error_cb, ANT_LICENSE_KEY), false );
-#elif
+#else
   VERIFY_STATUS( sd_softdevice_enable(&clock_cfg, nrf_error_cb), false );
 #endif 
 
