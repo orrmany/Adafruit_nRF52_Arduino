@@ -1,7 +1,15 @@
 {
-  "description": "Adafruit Arduino Framework for NRF52",
   "name": "framework-arduinoadafruitnrf52",
-  "system": "*",
-  "url": "https://github.com/orrmany/Adafruit_nRF52_Arduino.git#develop-ant-plus-ble",
-  "version": "1.19.0"
+  "version": "1.1900.200603",
+  "description": "Arduino Wiring-based Framework for Nordic Semiconductor nRF52 BLE SoC",
+  "keywords": [
+    "framework",
+    "arduino",
+    "nordic semiconductor",
+    "nrf52"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orrmany/Adafruit_nRF52_Arduino.git#develop-ant-plus-ble",
+  }
 }
