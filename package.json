@@ -1,0 +1,7 @@
+{
+  "description": "Adafruit Arduino Framework for NRF52",
+  "name": "framework-arduinoadafruitnrf52",
+  "system": "*",
+  "url": "https://github.com/orrmany/Adafruit_nRF52_Arduino.git#develop-ant-plus-ble",
+  "version": "1.19.0"
+}
