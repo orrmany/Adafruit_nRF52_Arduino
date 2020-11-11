@@ -1,0 +1,13 @@
+{
+  "name": "framework-arduinoadafruitnrf52",
+  "version": "1.2100.201111",
+  "description": "ANT+ enabled Arduino Wiring-based Framework for Nordic Semiconductor nRF52 BLE SoC",
+  "url": "https://github.com/orrmany/Adafruit_nRF52_Arduino.git#develop-ant-plus-ble",
+  "keywords": [
+    "framework",
+    "arduino",
+    "nordic semiconductor",
+    "nrf52",
+    "ANT+"
+  ]
+}
